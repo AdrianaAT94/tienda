@@ -1,0 +1,25 @@
+<?php return array (
+  'parameters' => 
+  array (
+    'database_host' => 'localhost',
+    'database_port' => '',
+    'database_name' => 'tienda',
+    'database_user' => 'root',
+    'database_password' => '',
+    'database_prefix' => 'ps_',
+    'database_engine' => 'InnoDB',
+    'mailer_transport' => 'smtp',
+    'mailer_host' => '127.0.0.1',
+    'mailer_user' => NULL,
+    'mailer_password' => NULL,
+    'secret' => 'RArvgjFwXNNprWQTL1opcjqiixDyf0bmu907SGI2wHCwx5FQWEDGGXpFzbmVLSLO',
+    'ps_caching' => 'CacheMemcache',
+    'ps_cache_enable' => false,
+    'ps_creation_date' => '2021-03-26',
+    'locale' => 'es-ES',
+    'use_debug_toolbar' => true,
+    'cookie_key' => '8x0YjG0076U8ptRPTVqatio295oKKVI7imkeXxHdeB7rdVxg96Ucfey0Av6HB0UR',
+    'cookie_iv' => 'EmcC2nrchWNeqJWAWJfu2AEoMBA9KNPL',
+    'new_cookie_key' => 'def00000df62e8dc9c4465bc3a79972af81e710d7857602e4c6ee7fa0e0140f649e42325d491c04e9bd84251be33e3e737b09e5e5a70e661882ef6cc8eb3667d3413078c',
+  ),
+);

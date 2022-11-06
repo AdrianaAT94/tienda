@@ -1,0 +1,87 @@
+/*
+Error: Undefined mixin 'opacity'.
+        on line 5 of D:/xampp/htdocs/prestashop/dev/bos_gypsy/themes/bos_gypsy/_dev/css/components/block-reassurance.scss, in `opacity'
+        from line 5 of D:/xampp/htdocs/prestashop/dev/bos_gypsy/themes/bos_gypsy/_dev/css/components/block-reassurance.scss
+
+1: #block-reassurance{
+2:   margin-top: 16px;
+3:   img{
+4:     width: 25px; 
+5:     @include opacity(0.7);
+6:     @include rtl-margin-right(10px);
+7:   }
+8:   li{
+9:   }
+10:   li .block-reassurance-item{
+
+Backtrace:
+D:/xampp/htdocs/prestashop/dev/bos_gypsy/themes/bos_gypsy/_dev/css/components/block-reassurance.scss:5:in `opacity'
+D:/xampp/htdocs/prestashop/dev/bos_gypsy/themes/bos_gypsy/_dev/css/components/block-reassurance.scss:5
+C:/Ruby25/lib/ruby/gems/2.5.0/gems/sass-3.4.25/lib/sass/tree/visitors/perform.rb:352:in `block in visit_mixin'
+C:/Ruby25/lib/ruby/gems/2.5.0/gems/sass-3.4.25/lib/sass/stack.rb:98:in `block in with_mixin'
+C:/Ruby25/lib/ruby/gems/2.5.0/gems/sass-3.4.25/lib/sass/stack.rb:115:in `with_frame'
+C:/Ruby25/lib/ruby/gems/2.5.0/gems/sass-3.4.25/lib/sass/stack.rb:98:in `with_mixin'
+C:/Ruby25/lib/ruby/gems/2.5.0/gems/sass-3.4.25/lib/sass/tree/visitors/perform.rb:350:in `visit_mixin'
+C:/Ruby25/lib/ruby/gems/2.5.0/gems/sass-3.4.25/lib/sass/tree/visitors/base.rb:36:in `visit'
+C:/Ruby25/lib/ruby/gems/2.5.0/gems/sass-3.4.25/lib/sass/tree/visitors/perform.rb:162:in `block in visit'
+C:/Ruby25/lib/ruby/gems/2.5.0/gems/sass-3.4.25/lib/sass/stack.rb:79:in `block in with_base'
+C:/Ruby25/lib/ruby/gems/2.5.0/gems/sass-3.4.25/lib/sass/stack.rb:115:in `with_frame'
+C:/Ruby25/lib/ruby/gems/2.5.0/gems/sass-3.4.25/lib/sass/stack.rb:79:in `with_base'
+C:/Ruby25/lib/ruby/gems/2.5.0/gems/sass-3.4.25/lib/sass/tree/visitors/perform.rb:162:in `visit'
+C:/Ruby25/lib/ruby/gems/2.5.0/gems/sass-3.4.25/lib/sass/tree/visitors/perform.rb:434:in `block (2 levels) in visit_rule'
+C:/Ruby25/lib/ruby/gems/2.5.0/gems/sass-3.4.25/lib/sass/tree/visitors/perform.rb:434:in `map'
+C:/Ruby25/lib/ruby/gems/2.5.0/gems/sass-3.4.25/lib/sass/tree/visitors/perform.rb:434:in `block in visit_rule'
+C:/Ruby25/lib/ruby/gems/2.5.0/gems/sass-3.4.25/lib/sass/tree/visitors/perform.rb:183:in `with_environment'
+C:/Ruby25/lib/ruby/gems/2.5.0/gems/sass-3.4.25/lib/sass/tree/visitors/perform.rb:432:in `visit_rule'
+C:/Ruby25/lib/ruby/gems/2.5.0/gems/sass-3.4.25/lib/sass/tree/visitors/base.rb:36:in `visit'
+C:/Ruby25/lib/ruby/gems/2.5.0/gems/sass-3.4.25/lib/sass/tree/visitors/perform.rb:162:in `block in visit'
+C:/Ruby25/lib/ruby/gems/2.5.0/gems/sass-3.4.25/lib/sass/stack.rb:79:in `block in with_base'
+C:/Ruby25/lib/ruby/gems/2.5.0/gems/sass-3.4.25/lib/sass/stack.rb:115:in `with_frame'
+C:/Ruby25/lib/ruby/gems/2.5.0/gems/sass-3.4.25/lib/sass/stack.rb:79:in `with_base'
+C:/Ruby25/lib/ruby/gems/2.5.0/gems/sass-3.4.25/lib/sass/tree/visitors/perform.rb:162:in `visit'
+C:/Ruby25/lib/ruby/gems/2.5.0/gems/sass-3.4.25/lib/sass/tree/visitors/perform.rb:434:in `block (2 levels) in visit_rule'
+C:/Ruby25/lib/ruby/gems/2.5.0/gems/sass-3.4.25/lib/sass/tree/visitors/perform.rb:434:in `map'
+C:/Ruby25/lib/ruby/gems/2.5.0/gems/sass-3.4.25/lib/sass/tree/visitors/perform.rb:434:in `block in visit_rule'
+C:/Ruby25/lib/ruby/gems/2.5.0/gems/sass-3.4.25/lib/sass/tree/visitors/perform.rb:183:in `with_environment'
+C:/Ruby25/lib/ruby/gems/2.5.0/gems/sass-3.4.25/lib/sass/tree/visitors/perform.rb:432:in `visit_rule'
+C:/Ruby25/lib/ruby/gems/2.5.0/gems/sass-3.4.25/lib/sass/tree/visitors/base.rb:36:in `visit'
+C:/Ruby25/lib/ruby/gems/2.5.0/gems/sass-3.4.25/lib/sass/tree/visitors/perform.rb:162:in `block in visit'
+C:/Ruby25/lib/ruby/gems/2.5.0/gems/sass-3.4.25/lib/sass/stack.rb:79:in `block in with_base'
+C:/Ruby25/lib/ruby/gems/2.5.0/gems/sass-3.4.25/lib/sass/stack.rb:115:in `with_frame'
+C:/Ruby25/lib/ruby/gems/2.5.0/gems/sass-3.4.25/lib/sass/stack.rb:79:in `with_base'
+C:/Ruby25/lib/ruby/gems/2.5.0/gems/sass-3.4.25/lib/sass/tree/visitors/perform.rb:162:in `visit'
+C:/Ruby25/lib/ruby/gems/2.5.0/gems/sass-3.4.25/lib/sass/tree/visitors/base.rb:52:in `block in visit_children'
+C:/Ruby25/lib/ruby/gems/2.5.0/gems/sass-3.4.25/lib/sass/tree/visitors/base.rb:52:in `map'
+C:/Ruby25/lib/ruby/gems/2.5.0/gems/sass-3.4.25/lib/sass/tree/visitors/base.rb:52:in `visit_children'
+C:/Ruby25/lib/ruby/gems/2.5.0/gems/sass-3.4.25/lib/sass/tree/visitors/perform.rb:171:in `block in visit_children'
+C:/Ruby25/lib/ruby/gems/2.5.0/gems/sass-3.4.25/lib/sass/tree/visitors/perform.rb:183:in `with_environment'
+C:/Ruby25/lib/ruby/gems/2.5.0/gems/sass-3.4.25/lib/sass/tree/visitors/perform.rb:170:in `visit_children'
+C:/Ruby25/lib/ruby/gems/2.5.0/gems/sass-3.4.25/lib/sass/tree/visitors/base.rb:36:in `block in visit'
+C:/Ruby25/lib/ruby/gems/2.5.0/gems/sass-3.4.25/lib/sass/tree/visitors/perform.rb:190:in `visit_root'
+C:/Ruby25/lib/ruby/gems/2.5.0/gems/sass-3.4.25/lib/sass/tree/visitors/base.rb:36:in `visit'
+C:/Ruby25/lib/ruby/gems/2.5.0/gems/sass-3.4.25/lib/sass/tree/visitors/perform.rb:161:in `visit'
+C:/Ruby25/lib/ruby/gems/2.5.0/gems/sass-3.4.25/lib/sass/tree/visitors/perform.rb:10:in `visit'
+C:/Ruby25/lib/ruby/gems/2.5.0/gems/sass-3.4.25/lib/sass/tree/root_node.rb:36:in `css_tree'
+C:/Ruby25/lib/ruby/gems/2.5.0/gems/sass-3.4.25/lib/sass/tree/root_node.rb:29:in `render_with_sourcemap'
+C:/Ruby25/lib/ruby/gems/2.5.0/gems/sass-3.4.25/lib/sass/engine.rb:384:in `_render_with_sourcemap'
+C:/Ruby25/lib/ruby/gems/2.5.0/gems/sass-3.4.25/lib/sass/engine.rb:301:in `render_with_sourcemap'
+C:/Ruby25/lib/ruby/gems/2.5.0/gems/sass-3.4.25/lib/sass/plugin/compiler.rb:492:in `update_stylesheet'
+C:/Ruby25/lib/ruby/gems/2.5.0/gems/sass-3.4.25/lib/sass/plugin/compiler.rb:215:in `block in update_stylesheets'
+C:/Ruby25/lib/ruby/gems/2.5.0/gems/sass-3.4.25/lib/sass/plugin/compiler.rb:209:in `each'
+C:/Ruby25/lib/ruby/gems/2.5.0/gems/sass-3.4.25/lib/sass/plugin/compiler.rb:209:in `update_stylesheets'
+C:/Ruby25/lib/ruby/gems/2.5.0/gems/sass-3.4.25/lib/sass/plugin/compiler.rb:294:in `watch'
+C:/Ruby25/lib/ruby/gems/2.5.0/gems/compass-1.0.3/lib/compass/sass_compiler.rb:46:in `watch!'
+C:/Ruby25/lib/ruby/gems/2.5.0/gems/compass-1.0.3/lib/compass/commands/watch_project.rb:41:in `perform'
+C:/Ruby25/lib/ruby/gems/2.5.0/gems/compass-1.0.3/lib/compass/commands/base.rb:18:in `execute'
+C:/Ruby25/lib/ruby/gems/2.5.0/gems/compass-1.0.3/lib/compass/commands/project_base.rb:19:in `execute'
+C:/Ruby25/lib/ruby/gems/2.5.0/gems/compass-1.0.3/lib/compass/exec/sub_command_ui.rb:43:in `perform!'
+C:/Ruby25/lib/ruby/gems/2.5.0/gems/compass-1.0.3/lib/compass/exec/sub_command_ui.rb:15:in `run!'
+C:/Ruby25/lib/ruby/gems/2.5.0/gems/compass-1.0.3/bin/compass:30:in `block in <top (required)>'
+C:/Ruby25/lib/ruby/gems/2.5.0/gems/compass-1.0.3/bin/compass:44:in `<top (required)>'
+C:/Ruby25/bin/compass:23:in `load'
+C:/Ruby25/bin/compass:23:in `<main>'
+*/
+body:before {
+  white-space: pre;
+  font-family: monospace;
+  content: "Error: Undefined mixin 'opacity'.\A         on line 5 of D:/xampp/htdocs/prestashop/dev/bos_gypsy/themes/bos_gypsy/_dev/css/components/block-reassurance.scss, in `opacity'\A         from line 5 of D:/xampp/htdocs/prestashop/dev/bos_gypsy/themes/bos_gypsy/_dev/css/components/block-reassurance.scss\A \A 1: #block-reassurance{\A 2:   margin-top: 16px;\A 3:   img{\A 4:     width: 25px; \A 5:     @include opacity(0.7);\A 6:     @include rtl-margin-right(10px);\A 7:   }\A 8:   li{\A 9:   }\A 10:   li .block-reassurance-item{"; }

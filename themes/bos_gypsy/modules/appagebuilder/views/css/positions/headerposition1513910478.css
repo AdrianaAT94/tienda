@@ -1,0 +1,78 @@
+/*header 2*/
+/***************************************************
+  Mixins Themes 
+/***************************************************/
+/* Mixin Normal*/
+/* Mixin Clear */
+/* Mixin Border */
+/*background RGBA
+============================================*/
+/***************************************************
+  Mixins RTL Themes 
+/***************************************************/
+/************************************ 
+	Override Bootstrap 
+*************************************/
+/**
+ * Web Application Prefix Apply For Making Owner Styles
+ */
+/**
+ *   Blocks Layout Selectors 
+ */
+/***********************************************************************/
+@media (min-width: 992px) {
+  body.keep-header #page {
+    padding-top: 220px !important; }
+  body.keep-header #header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 99; } }
+.box-navh1 .ApHtml {
+  color: #fff; }
+.box-navh1 .popup-over a.popup-title {
+  color: #fff; }
+
+.leo-megamenu .navbar-nav > li > a {
+  color: #fff; }
+.leo-megamenu .navbar-nav > li:hover > a, .leo-megamenu .navbar-nav > li.active > a {
+  color: #fff; }
+
+.box-top .col-info .ap-btn-compare,
+.box-top .col-info .ap-btn-wishlist {
+  border-right: 1px solid #6789f4;
+  color: #fff; }
+  .rtl .box-top .col-info .ap-btn-compare, .rtl
+  .box-top .col-info .ap-btn-wishlist {
+    border-left: 1px solid #6789f4;
+    border-right: inherit; }
+  .box-top .col-info .ap-btn-compare span,
+  .box-top .col-info .ap-btn-wishlist span {
+    background: #272727; }
+
+.box-top .col-info #cart-block .cart-products-count {
+  background: #272727; }
+
+.box-top .col-info #cart-block .header {
+  color: #fff; }
+  .box-top .col-info #cart-block .header a {
+    color: #fff; }
+
+.ApMegamenu .leo-verticalmenu .title_block {
+  color: #de1345;
+  background: #fff;
+  font-weight: 600; }
+
+.ApMegamenu .leo-verticalmenu > .block_content {
+  border-top: 1px solid #e5e5e5; }
+
+.ApMegamenu .leo-verticalmenu .title_block:before {
+  background: #de1345;
+  color: #fff; }
+
+.navbar-header .navbar-toggler {
+  border: 1px solid #fff;
+  color: #fff; }
+
+/*# sourceMappingURL=headerposition1513910478.css.map */
